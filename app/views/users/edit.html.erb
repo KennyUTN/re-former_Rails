@@ -6,8 +6,6 @@
 <%= form.text_field :email %><br><br>
 <%= form.label "Password:" %>
 <%= form.password_field :password %><br><br>
-<%= form.label "Password Confirm:" %>
-<%= form.password_field :password_confirmation %><br><br>
 <%= form.submit "Update"%>
 <% if @user.errors.any? %>
     <ul>
